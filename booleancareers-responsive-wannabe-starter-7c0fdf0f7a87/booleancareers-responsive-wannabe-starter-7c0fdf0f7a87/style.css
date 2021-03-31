@@ -78,29 +78,60 @@ img {
     width: 100%;
     margin: 0 auto;
     background-color: rgba(242, 242, 205, 1);
-    line-height: 1rem;
+    padding-bottom: 15px;
   }
   #steps .row>.left,
   #steps .row>.central,
   #steps .row>.right{
     width: 100%;
     float: none;
-    margin-top: 0;
+    margin: 0 auto;
     background-color: white;
-    line-height: 1rem;
+    padding-bottom: 15px;
   }
   #why .row>.first,
   #why .row>.second,
   #why .row>.third {
-  line-height: 1rem;
   width: 100%;
   margin: 0 auto;
   background-color: rgba(242, 242, 205, 1);
-}
+ 
+  }
+  body{
+    font-size: 1.50rem;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1.25rem;
+  }
   hr{
-    display: none;
+    width: 90%;
+    margin: 0 auto;
+    background-color: black;
+  }
+  #lezioni .row>h1,
+  #why .row>h1{
+    background-color: rgba(242, 242, 205, 1);
+  }
+  h1{
+    font-size: 3rem;
+    padding: 30px;
+    
+  }
+  h3{
+    font-size: 1.75rem;
+    padding-bottom: 10px;
+  }
+  img{
+    margin-bottom: 20px;
   }
   h1, h3{
     margin: 0 auto;
+  }
+  .container.grey {
+    background-color: white;
+  }
+  .row{
+    margin-top: 10px;
   }
 }
